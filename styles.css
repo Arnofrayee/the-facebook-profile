@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans 3";
+}
+.principale {
+  border: solid 1px #3b5998;
+}
+header {
+  display: flex;
+  width: max-content;
+}
+.headbg {
+  max-width: 344px;
+  max-height: 80px;
+}
+.thefacebook {
+  object-fit: cover;
+  max-width: 344px;
+  max-height: 57px;
+}
+.head2 {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  background-color: #3b5999;
+  height: 21px;
+  font-weight: 400;
+  font-size: 11px;
+  gap: 10px;
+  padding-top: 10px;
+  color: white;
+  list-style-type: none;
+}
+main {
+  display: grid;
+  grid-template-columns: 0.5fr 3.5fr;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 3px;
+}
+.quicksearch {
+  display: flex;
+  flex-direction: column;
+  width: 117px;
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: -1px;
+  border: dashed 1px #3b5999;
+  padding: 4px;
+}
+input {
+  background-color: #d9dfea;
+  width: 109px;
+  height: 16px;
+  border: 1px solid #3b5998;
+}
+.quicksearch3 {
+  display: flex;
+  gap: 15px;
+}
+.searchb {
+  display: flex;
+  width: 24px;
+  height: 14px;
+  background-color: #538adc;
+  font-weight: 400;
+  font-size: 11px;
+  color: white;
+  border: none;
+  box-shadow: 0px 1px 1px 0px #3b5998;
+  justify-content: center;
+}
+.quicknav {
+  display: flex;
+  flex-direction: column;
+  width: 117px;
+  font-weight: 400;
+  font-size: 11px;
+  color: #538adc;
+  border: dashed 1px #3b5999;
+  padding: 10px 4px;
+  line-height: 11px;
+}
+.quicknav1 {
+  display: flex;
+  gap: 10px;
+}
+.edit {
+  display: flex;
+  gap: 5px;
+}
+.imgside {
+  border: dashed 1px #3b5999;
+}
+.imgside2 {
+  width: 125px;
+  height: 519px;
+}
